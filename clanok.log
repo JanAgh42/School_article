@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.12)  12 OCT 2020 19:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.12)  12 OCT 2020 19:42
 entering extended mode
 **./clanok.tex
 (clanok.tex
@@ -306,37 +306,45 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  (clanok.bbl
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 25.
-) [1
+ [1
 
-{C:/Users/every/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] (clanok.aux)
-Package rerunfilecheck Info: File `clanok.out' has not changed.
-(rerunfilecheck)             Checksum: DF9046784C0C8AFAF6D76F19BA1EB670;42.
+{C:/Users/every/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]) [2] (clanok.au
+x)
+
+Package rerunfilecheck Warning: File `clanok.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `clanok.out':
+(rerunfilecheck)             Before: DF9046784C0C8AFAF6D76F19BA1EB670;42
+(rerunfilecheck)             After:  5EFEB9AFBE6046124FADB61F675445B2;85.
  ) 
 Here is how much of TeX's memory you used:
- 6499 strings out of 480257
- 97571 string characters out of 2891252
+ 6505 strings out of 480257
+ 97643 string characters out of 2891252
  412392 words of memory out of 3000000
- 22908 multiletter control sequences out of 15000+200000
- 546040 words of font info for 56 fonts, out of 3000000 for 9000
+ 22911 multiletter control sequences out of 15000+200000
+ 546667 words of font info for 57 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,7n,66p,256b,374s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 60i,7n,66p,256b,499s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\every\AppData\Local\MiKTeX\fonts/pk/ljfour/public/csfonts/dpi600\c
-sr8.pk> <C:\Users\every\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600
-\tcrm0600.pk> <C:\Users\every\AppData\Local\MiKTeX\fonts/pk/ljfour/public/csfon
-ts/dpi600\cstt10.pk> <C:\Users\every\AppData\Local\MiKTeX\fonts/pk/ljfour/publi
-c/csfonts/dpi600\csti10.pk> <C:\Users\every\AppData\Local\MiKTeX\fonts/pk/ljfou
-r/public/csfonts/dpi600\csr10.pk> <C:\Users\every\AppData\Local\MiKTeX\fonts/pk
-/ljfour/public/csfonts/dpi720\csbx12.pk> <C:\Users\every\AppData\Local\MiKTeX\f
-onts/pk/ljfour/public/csfonts/dpi600\csbx9.pk> <C:\Users\every\AppData\Local\Mi
-KTeX\fonts/pk/ljfour/public/csfonts/dpi600\cstt9.pk> <C:\Users\every\AppData\Lo
-cal\MiKTeX\fonts/pk/ljfour/public/csfonts/dpi600\csr9.pk> <C:\Users\every\AppDa
-ta\Local\MiKTeX\fonts/pk/ljfour/public/csfonts/dpi600\csr12.pk> <C:\Users\every
-\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users
-\every\AppData\Local\MiKTeX\fonts/pk/ljfour/public/csfonts/dpi600\csr17.pk><C:/
-Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb>
-Output written on clanok.pdf (1 page, 104569 bytes).
+stt10.pk> <C:\Users\every\AppData\Local\MiKTeX\fonts/pk/ljfour/public/csfonts/d
+pi600\cssl10.pk> <C:\Users\every\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cs
+fonts/dpi600\csr8.pk> <C:\Users\every\AppData\Local\MiKTeX\fonts/pk/ljfour/jkna
+ppen/ec/dpi600\tcrm0600.pk> <C:\Users\every\AppData\Local\MiKTeX\fonts/pk/ljfou
+r/public/csfonts/dpi600\csti10.pk> <C:\Users\every\AppData\Local\MiKTeX\fonts/p
+k/ljfour/public/csfonts/dpi600\csr10.pk> <C:\Users\every\AppData\Local\MiKTeX\f
+onts/pk/ljfour/public/csfonts/dpi720\csbx12.pk> <C:\Users\every\AppData\Local\M
+iKTeX\fonts/pk/ljfour/public/csfonts/dpi600\csbx9.pk> <C:\Users\every\AppData\L
+ocal\MiKTeX\fonts/pk/ljfour/public/csfonts/dpi600\cstt9.pk> <C:\Users\every\App
+Data\Local\MiKTeX\fonts/pk/ljfour/public/csfonts/dpi600\csr9.pk> <C:\Users\ever
+y\AppData\Local\MiKTeX\fonts/pk/ljfour/public/csfonts/dpi600\csr12.pk> <C:\User
+s\every\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C
+:\Users\every\AppData\Local\MiKTeX\fonts/pk/ljfour/public/csfonts/dpi600\csr17.
+pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb>
+Output written on clanok.pdf (2 pages, 109833 bytes).
 PDF statistics:
- 337 PDF objects out of 1000 (max. 8388607)
- 8 named destinations out of 1000 (max. 500000)
+ 356 PDF objects out of 1000 (max. 8388607)
+ 10 named destinations out of 1000 (max. 500000)
  9 words of extra memory for PDF output out of 10000 (max. 10000000)
 
