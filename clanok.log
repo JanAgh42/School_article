@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.12)  12 OCT 2020 19:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.12)  13 OCT 2020 16:12
 entering extended mode
 **./clanok.tex
 (clanok.tex
@@ -316,14 +316,14 @@ Package rerunfilecheck Warning: File `clanok.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `clanok.out':
-(rerunfilecheck)             Before: DF9046784C0C8AFAF6D76F19BA1EB670;42
-(rerunfilecheck)             After:  5EFEB9AFBE6046124FADB61F675445B2;85.
+(rerunfilecheck)             Before: 5EFEB9AFBE6046124FADB61F675445B2;85
+(rerunfilecheck)             After:  A8AB69DD3ABC40C4A5E2775888FB1359;126.
  ) 
 Here is how much of TeX's memory you used:
- 6505 strings out of 480257
- 97643 string characters out of 2891252
+ 6507 strings out of 480257
+ 97663 string characters out of 2891252
  412392 words of memory out of 3000000
- 22911 multiletter control sequences out of 15000+200000
+ 22912 multiletter control sequences out of 15000+200000
  546667 words of font info for 57 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,7n,66p,256b,499s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -342,9 +342,9 @@ y\AppData\Local\MiKTeX\fonts/pk/ljfour/public/csfonts/dpi600\csr12.pk> <C:\User
 s\every\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C
 :\Users\every\AppData\Local\MiKTeX\fonts/pk/ljfour/public/csfonts/dpi600\csr17.
 pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb>
-Output written on clanok.pdf (2 pages, 109833 bytes).
+Output written on clanok.pdf (2 pages, 111899 bytes).
 PDF statistics:
- 356 PDF objects out of 1000 (max. 8388607)
- 10 named destinations out of 1000 (max. 500000)
- 9 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 364 PDF objects out of 1000 (max. 8388607)
+ 11 named destinations out of 1000 (max. 500000)
+ 17 words of extra memory for PDF output out of 10000 (max. 10000000)
 
