@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.12)  19 OCT 2020 16:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.12)  19 OCT 2020 17:23
 entering extended mode
 **./clanok.tex
 (clanok.tex
@@ -303,24 +303,34 @@ File: il2cmtt.fd 1997/08/20 CSLaTeX font definitions
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 32.
+<Obrázky/opis-crop.pdf, id=11, 673.51625pt x 292.09125pt>
+File: Obrázky/opis-crop.pdf Graphic file (type pdf)
+<use Obrázky/opis-crop.pdf>
+Package pdftex.def Info: Obrázky/opis-crop.pdf  used on input line 58.
+(pdftex.def)             Requested size: 345.0pt x 149.61972pt.
+<Obrázky/diagram-crop.pdf, id=12, 361.35pt x 573.14125pt>
+File: Obrázky/diagram-crop.pdf Graphic file (type pdf)
+<use Obrázky/diagram-crop.pdf>
+Package pdftex.def Info: Obrázky/diagram-crop.pdf  used on input line 65.
+(pdftex.def)             Requested size: 172.5pt x 273.60046pt.
  (clanok.bbl
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 25.
  [1
 
-{C:/Users/every/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]) [2] (clanok.au
-x)
+{C:/Users/every/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] [2 <./Obrázky/
+opis-crop.pdf> <./Obrázky/diagram-crop.pdf>]) [3] (clanok.aux)
 Package rerunfilecheck Info: File `clanok.out' has not changed.
 (rerunfilecheck)             Checksum: 5EFEB9AFBE6046124FADB61F675445B2;85.
  ) 
 Here is how much of TeX's memory you used:
- 6506 strings out of 480257
- 97654 string characters out of 2891252
+ 6523 strings out of 480257
+ 98046 string characters out of 2891252
  412391 words of memory out of 3000000
- 22912 multiletter control sequences out of 15000+200000
+ 22923 multiletter control sequences out of 15000+200000
  546667 words of font info for 57 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,7n,66p,220b,499s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 60i,7n,66p,220b,505s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\every\AppData\Local\MiKTeX\fonts/pk/ljfour/public/csfonts/dpi600\c
 stt10.pk> <C:\Users\every\AppData\Local\MiKTeX\fonts/pk/ljfour/public/csfonts/d
 pi600\cssl10.pk> <C:\Users\every\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cs
@@ -336,9 +346,9 @@ y\AppData\Local\MiKTeX\fonts/pk/ljfour/public/csfonts/dpi600\csr12.pk> <C:\User
 s\every\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C
 :\Users\every\AppData\Local\MiKTeX\fonts/pk/ljfour/public/csfonts/dpi600\csr17.
 pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb>
-Output written on clanok.pdf (2 pages, 110314 bytes).
+Output written on clanok.pdf (3 pages, 129431 bytes).
 PDF statistics:
- 360 PDF objects out of 1000 (max. 8388607)
- 10 named destinations out of 1000 (max. 500000)
- 17 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 389 PDF objects out of 1000 (max. 8388607)
+ 13 named destinations out of 1000 (max. 500000)
+ 27 words of extra memory for PDF output out of 10000 (max. 10000000)
 
