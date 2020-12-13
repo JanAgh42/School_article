@@ -8,6 +8,8 @@
 \usepackage{url}
 \usepackage{hyperref} 
 \usepackage{cite}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage[bottom]{footmisc}
 
 \pagestyle{headings}
 
@@ -69,8 +71,9 @@ Mhouti, Erradi a Nasseh definujú pojem E-Learning nasledovným spôsobom: \uv{E
 
 
 Existuje viacero objektívnych dôvodov, prečo je dôležité integrovať služby ponúkané cloudom a iné moderné technológie do každodenného vyučovacieho procesu. Medzi najdôležitejšie dôvody jednoznačne patrí to, aby študenti boli s týmito technológiami oboznámení a vedeli ich správne používať, pretože mnoho kvalitných pracovných pozícií v dnešnej dobe vyžaduje vysokú znalosť týchto technológií\cite{Babu_enrichingeducation}. Nemenej dôležitá je aj modernizácia učebného materiálu a jeho dopĺňanie o nové relevantné poznatky, pretože veľká časť školského učiva, ktoré sa dnešní študenti musia naučiť, je zastaralá a preto informácie v nich obsiahnuté študenti nedokážu vo svojom ďalšom zameraní využiť.
-
-Na druhej strane, pre školy a iné vzdelávacie inštitúcie je kľúčové znižovanie svojich výdavkov bez toho, aby tým bola zasiahnutá kvalita poskytovaného vyučovania. Namiesto implementácie vlastných drahých a komplexných hardvérových a softvérových systémov sa tak môžu tieto inštitúcie prikloniť k používaniu systémov a aplikácií uložených na cloude, ktoré poskytujú v princípe rovnaké služby, ale za výrazne nižšie poplatky\cite{Mhouti_benefits_challenges}. Za zmienku stojí aj fakt, že školy nie sú zodpovedné za údržbu alebo aktualizáciu týchto cloudových systémov a aplikácií, nakoľko oni nie sú vlastníkmi, čím vzniká priestor na ďalšie znižovanie výdavkov\cite{Narkar_cloud-basededucation}, čo v prípade používania vlastných systémov nie je možné. 
+\\
+\\
+Na druhej strane, pre školy a iné vzdelávacie inštitúcie je kľúčové znižovanie svojich výdavkov bez toho, aby tým bola zasiahnutá kvalita poskytovaného vyučovania. Namiesto implementácie vlastných komplexných hardvérových a softvérových systémov sa tak môžu tieto inštitúcie prikloniť k používaniu systémov a aplikácií uložených na cloude, ktoré poskytujú v princípe rovnaké služby, ale za výrazne nižšie poplatky\cite{Mhouti_benefits_challenges}. Za zmienku stojí aj fakt, že školy nie sú zodpovedné za údržbu alebo aktualizáciu týchto cloudových systémov a aplikácií, nakoľko oni nie sú vlastníkmi, čím vzniká priestor na ďalšie znižovanie výdavkov\cite{Narkar_cloud-basededucation}.
 
 
 \section{Využitie cloudu vo vyučovaní}
@@ -91,22 +94,41 @@ Najčastejšie spomínanou oblasťou je bezpochyby zdieľanie učebných materi�
 Zjednodušená architektúra typického systému kombinujúceho cloudové služby a koncept e-learningu vo väčšine prípadov pozostáva z troch hlavných vrstiev. Prvou a z pohľadu používateľa najdôležitejšou vrstvou je vrstva spájajúca používateľské rozhranie so samotnými cloudovými službami\cite{Mhouti_benefits_challenges}. Táto vrstva umožňuje používateľovi interakciu s cloudom, t.j. nahrávanie a sťahovanie obsahu z cloudových úložísk a jeho hlavnou požiadavkou je jednoduchosť a priamočiarosť dizajnu, aby používateľ mohol využívať systém bez väčších ťažkostí. Nasledujúca, druhá vrstva je zodpovedná za zabezpečenie cloudových služieb rôznych typov, ako napríklad IaaS (Infrastructure as a service) pre cloudové úložné priestory, Saas (Software as a service) pre mailové služby a prácu s rôznymi protokolmi a PaaS (Platform as a service) umožňujúci vývoj vlastných systémov, pričom dôležitou vlastnosťou je to, že sa používateľ nemusí zaoberať údržbou a aktualizáciou týchto služieb, nakoľko on nie je ich vlastníkom\cite{Mhouti_benefits_challenges}. Posledná, tretia vrstva reprezentuje kompletnú hardvérovú výbavu systému, ako napríklad pamäte, procesory alebo iné aktívne aj pasívne prvky, a ich údržbu\cite{Mhouti_benefits_challenges}.
 
 
-\section{Výhody a problémy spojené s využívaním cloudových služieb}
+\section{Výhody a problémy spojené s využívaním cloudu}
+
+\subsection{Výhody cloudových služieb}
 
 
-Z využívania cloudových služieb na zjednodušenie viacerých aspektov vyučovacieho procesu plynie mnoho významných výhod ako pre študentov, tak aj pre rôzne vzdelávacie inštitúcie, ktoré títo študenti navštevujú.
+Z využívania cloudových služieb na zjednodušenie viacerých aspektov vyučovacieho procesu plynie mnoho významných výhod ako pre študentov, tak aj pre rôzne vzdelávacie inštitúcie, ktoré títo študenti navštevujú. Tieto služby dokážu v kombinácii s procesom E-learningu zvýšiť produktivitu pedagógov a študentov tým, že im ponúkajú viacero spôsobov interakcie a uľahčujú túto interakciu medzi nimi, a taktiež podporujú spoluprácu medzi študentmi ako jednotlivcami\cite{Mhouti_benefits_challenges}. Nemenej dôležitý je aj fakt, že žiaci a učitelia nepotrebujú žiadne špeciálne školenie na to, aby dokázali tieto systémy správne používať a k zdieľaným materiálom majú prístup prakticky z akéhokoľvek miesta vybaveného internetovým pripojením\cite{Koutsopoulos_schooloncloud}. Medzi pozitíva patrí aj to, že zásluhou týchto systémov môže každodenné vyučovanie neprerušene prebiehať aj v prípadoch, kedy realizácia tradičného prezenčného vyučovania nie je možná, a v neposlednom rade modernizácia jednej časti vyučovacieho procesu postupom času vynúti aj modernizáciu iných častí.
+\\
+\\
+Pre vzdelávacie inštitúcie môže byť zaujímavá hlavne nízka cena implementácie takéhoto systému a tiež prakticky nulové poplatky za údržbu a aktualizáciu súčastí systému\cite{Narkar_cloud-basededucation}. Ďalšie veľké výhody predstavujú obrovský úložný priestor dostupný online za veľmi nízke poplatky a vysoká úroveň zabezpečenia proti odcudzeniu dát a údajov uložených na danom cloude\cite{Mhouti_benefits_challenges}. 
+\\
+\\
+Cloudové služby pri pohľade na budúcnosť prinášajú výhody aj pre svojich vlastníkov. Rozmachu cloudových služieb vo veľkej miere pomohla súčasná pandemická situácia, kedy bolo školstvo v celom svete doslova prinútené ich začať používať. Oblasť cloudových služieb sa tak zrazu stala veľmi zaujímavou z ekonomického hľadiska a mnoho veľkých spoločností sa rozhodlo do nej preinvestovať veľkú časť svojich zdrojov s cieľom využiť situáciu a dosiahnuť čo najväčšie zisky. Pre princíp ilustrácie sú v tabuľke nižšie zobrazené zisky spoločnosti Zoom Video Communications od jej založenia, pričom obrovský nárast ziskov počas pandémie je zvýraznený farebne.
 
-----------------DOPLNIŤ-------------------
+\begin{table}[h]
+\centering
+\begin{tabular}{|l|c|c|c|c|}
+\hline
+              & \multicolumn{1}{l|}{\textbf{1. kvartál}} & \multicolumn{1}{l|}{\textbf{2. kvartál}} & \multicolumn{1}{l|}{\textbf{3. kvartál}} & \multicolumn{1}{l|}{\textbf{4. kvartál}} \\ \hline
+\textbf{2018} & 0\$                                      & 60 mil. \$                               & 75 mil. \$                               & 90 mil. \$                               \\ \hline
+\textbf{2019} & 106 mil. \$                              & 122 mil. \$                              & 146 mil. \$                              & 167 mil. \$                              \\ \hline
+\textbf{2020} & \cellcolor[HTML]{FFCCC9}188 mil. \$      & \cellcolor[HTML]{FFCCC9}328 mil. \$      & \cellcolor[HTML]{FFCCC9}664 mil. \$      & N/A                                      \\ \hline
+\end{tabular}
+\caption{Zisky Zoom Video Communications od jej založenia.}
+\end{table}
 
-Okrem toho dokážu cloudové služby v kombinácii s procesom E-learningu zvýšiť produktivitu pedagógov a študentov tým, že im ponúkajú viacero spôsobov interakcie a uľahčujú túto interakciu medzi nimi, a taktiež podporujú spoluprácu medzi študentmi ako jednotlivcami\cite{Mhouti_benefits_challenges}.
 
-Okrem toho modernizácia vyučovania zapríčiňuje rozsiahle zmeny aj v postavení a úlohách pedagógov a študentov\cite{Koutsopoulos_schooloncloud}. Hlavnou úlohou pedagógov naďalej ostáva umožniť študentom nadobudnúť potrebné poznatky a vzdelanie, ale kým doteraz bolo ich poslaním prezentovanie nových poznatkov na vyučovacích hodinách, odteraz sa od nich očakáva prevažne aktívnejší prístup, ktorého cieľom je uľahčiť študentom vzdelávanie\cite{Koutsopoulos_schooloncloud}. Dôvod je to, že učitelia už nie sú jediným dostupným zdrojom informácií pre študentov. V tejto oblasti boli z veľkej časti nahradení online databázami a službami, ktoré študentom ponúkajú rýchlejší prístup k požadovaným informáciám.
+\subsection{Problémy s cloudovými službami}
+
+Samozrejme, ako to s každou modernizáciou chodí, aj pri integrácii cloudu do vyučovacieho procesu sa môžu objaviť isté problémy. Tieto problémy najčastejšie spôsobujú príslušníci staršej generácie, ktorí sú prispôsobení svojim zažívaným praktikám vrámci prezenčného vyučovania a iba neradi by sa adaptovali novým technológiám. Významné problémy môžu byť vyvolané aj nevyhovujúcou finančnou situáciou škôl, kedy jednoducho nemajú peňažné prostriedky na modernizáciu. Na záver, ale v neposlednom rade závisí modernizácia v oblasti školstva a všeobecne inklúzia cloudových služieb aj od finančného stavu krajiny, v ktorej sa nachádzajú. Študenti pochádzajúci z menej majetných krajín tak majú automaticky istú nevýhodu v porovnaní k študentom z bohatších krajín, kde modernizácia školstva prebieha rýchlejšie.
+%Okrem toho modernizácia vyučovania zapríčiňuje rozsiahle zmeny aj v postavení a úlohách pedagógov a študentov\cite{Koutsopoulos_schooloncloud}. Hlavnou úlohou pedagógov naďalej ostáva umožniť študentom nadobudnúť potrebné poznatky a vzdelanie, ale kým doteraz bolo ich poslaním prezentovanie nových poznatkov na vyučovacích hodinách, odteraz sa od nich očakáva prevažne aktívnejší prístup, ktorého cieľom je uľahčiť študentom vzdelávanie\cite{Koutsopoulos_schooloncloud}. Dôvod je to, že učitelia už nie sú jediným dostupným zdrojom informácií pre študentov. V tejto oblasti boli z veľkej časti nahradení online databázami a službami, ktoré študentom ponúkajú rýchlejší prístup k požadovaným informáciám.%
 
 
 \section{Záver}
 
-
-Týmto transformáciám nedokázali uniknúť ani spôsoby, akými si získavame a overujeme nové poznatky.
+Dovôdy a argumenty spomenuté v tomto článku jasne ukazujú, že budúcnosť vyučovacieho procesu je úzko spätá s vývojom cloudových služieb a aplikácií. Využívanie cloudových služieb prináša výhody obom stranám - študenti si osvoja prácu s nimi a nadobudnú dôležité skúsenosti, ktoré budú môcť zúžitkovať vo svojom budúcom povolaní, a školské a iné vzdelávacie inštitúcie môžu dramaticky zvýšiť kvalitu poskytovaného vyučovania a medzitým ešte aj ušetriť, pričom majú priestor spotrebovať ušetrené peňažné prostriedky na ďalšiu modernizáciu vyučovania.
 
 %\begin{figure}
 %\includegraphics[width=1\textwidth]{Obrázky/opis-crop.pdf}
